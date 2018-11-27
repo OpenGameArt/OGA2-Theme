@@ -1,0 +1,34 @@
+; $Id$
+name = OpenGameArt
+description = The official OpenGameArt theme
+version = 2.0
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = oga_theme.css
+scripts[] = oga_theme.js
+;scripts[] = sopamodal.js
+
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[topright] = Top (right of title)
+regions[menubar] = Menu Bar
+regions[menubar-right] = Menu Bar (right side)
+regions[left] = Left sidebar
+regions[content] = Right (main content)
+regions[farright] = Far Right (or bottom on < 1280)
+regions[header] = Header
+regions[footer] = Footer
+
+;features[] = logo
+;features[] = name
+;features[] = slogan
+;features[] = mission
+;features[] = node_user_picture
+;features[] = comment_user_picture
+;features[] = search
+;features[] = favicon
+;These last two disabled by redefining the
+;above defaults with only the needed features.
+;features[] = primary_links
+;features[] = secondary_links
+ 
