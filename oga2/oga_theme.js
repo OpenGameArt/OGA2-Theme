@@ -41,13 +41,15 @@
       multiSelectToggle($(this));
     });
 
-    $('.content').delegate('.play-button', 'click', function() {
+    $('.content').delegate('.play-button', 'click', function(e) {
       $('.stop-button').trigger('click');
       playButton(this);
+      e.stopPropagation();
     });
 
-    $('.content').delegate('.stop-button', 'click', function() {
+    $('.content').delegate('.stop-button', 'click', function(e) {
       stopButton(this);
+      e.stopPropagation();
     });
 
     $('.content').delegate('.subtree-toggle', 'click', function() {
