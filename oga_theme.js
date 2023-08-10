@@ -47,7 +47,7 @@
       e.stopPropagation();
     });
 
-    $('.content').delegate('.stop-button', 'click', function(e) {
+    $('.content').delegate('.stop-button', 'click', function(e) { 
       stopButton(this);
       e.stopPropagation();
     });
