@@ -1448,3 +1448,840 @@ ol.apachesolr_search-results {
 #edit-preview {
      visibility: hidden;
 }
+
+/*----------------OGA Responsive--------------------*/
+
+/*----------------Desktop Styles----------------*/
+ 
+    
+    /*----------------Global-----------------------*/
+    body,
+    #page,
+    #maincontent {
+    
+		width: 100% !important;
+		background-image: none !important;
+    }
+    
+    /*----------------User Pages-------------------*/
+    div#right.nosidebar {
+    
+		display: block !important;
+		margin: 0 auto !important;
+		width: 100% !important;
+    }
+    
+    .ds-2col-stacked .group-right {
+    
+		float: left !important;
+		width: 78% !important;
+		padding: 1% !important;
+    
+    }
+    
+    .ds-2col-stacked .group-left {
+    
+		float: left !important;
+		width: 18% !important;
+		padding: 1% !important;
+    
+    }
+    
+    .view-friends,
+    .view-followers {
+    
+		padding:0 !important;
+    }
+    
+    .view-art-collections .view-content .views-table {
+    
+		width: 100% !important;
+    
+    }
+    
+    /*---------------Popular Art Page / Featured Art -------------------*/
+    
+    .page-popular div#left,
+    .page-popular div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-popular div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*---------------Latest Art Page-------------------*/
+    
+    .page-latest div#left,
+    .page-latest div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-latest div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*---------------Latest Art Page By Friends-------------------*/
+    
+    .page-latest-friends div#left,
+    .page-latest-friends div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-latest-friends div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+   /*---------------Legal Note Page-------------------*/
+    
+    .page-node div#left,
+    .page-node div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-node div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*---------------Asset Detail Page-------------------*/
+    
+    .page-node div#right.nosidebar {
+    
+		width: 98% !important;
+		padding: 1% !important;    
+    }
+    
+    .page-node .node .required-fields {
+    
+		width: 98% !important;
+    
+    }
+    
+    #art-node-form .left-column {
+    
+		width: 18% !important;
+		padding: 1% !important;
+    
+    }
+    
+    #art-node-form .right-column {
+    
+		width: 68% !important;
+		padding: 1% !important;
+    
+    }
+    
+	/*---------------Blog Page-------------------*/
+    
+    .page-blog div#left,
+    .page-blog div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-blog div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-blog .node {
+    
+		text-align: center !important;
+		width: 98% !important;
+		padding: 1% !important;
+    
+    }
+    
+    /*---------------Art Search Advanced Page-------------------*/
+    
+    .page-art-search-advanced div#left {
+    
+		width: 18% !important;
+		padding: 1% !important;
+    }
+    
+    .page-art-search-advanced div#right {
+    
+		width: 78% !important;
+		padding: 1% !important;
+		float: right !important;
+    }
+    
+    #block-views-exp-art-search-art-advanced {
+    
+		width: 98% !important;
+		padding: 1% !important;
+    
+    }
+    
+    #block-views-exp-art-search-art-advanced #edit-field-art-tags-tid {
+    
+		width: 100% !important;
+    
+    }
+    
+     /*---------------Forum Page-------------------*/
+    
+    .page-forum div#left {
+    
+		width: 18% !important;
+		padding: 1% !important;
+    }
+    
+    .page-forum div#right {
+    
+		width: 78% !important;
+		padding: 1% !important;
+		float: right !important;
+    }
+    
+    #forum,
+    .forum-node-create-links-top {
+		width: 100% !important;
+	}
+	
+	.forum-node-create-links-top {
+		text-align: center !important;
+	}
+    
+    .forum-table {
+    
+		width: 100% !important;
+    
+    }
+    
+    #comment-form .form-wrapper {
+    
+		width: 98% !important;
+    
+    }
+    
+    /*---------------Topic Page-------------------*/
+    
+    .node-type-forum .group-left {
+    
+		width: 18% !important;
+		padding: 1% !important;
+    }
+    
+    .node-type-forum .group-right {
+    
+		width: 78% !important;
+		padding: 1% !important;
+		float: right !important;
+    }
+    
+    /*---------------My Collections Page -------------------*/
+    
+    .page-my-collections div#left,
+    .page-my-collections div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-my-collections div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*---------------Art Collections Page -------------------*/
+    
+    .page-collections div#left,
+    .page-collections div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-collections div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*---------------New Art Collections Page -------------------*/
+     
+     #art-collection-node-form .left-column {
+     
+		width: 18% !important;
+		padding: 1% !important;
+     
+     }
+     
+     #art-collection-node-form .right-column {
+     
+		width: 68% !important;
+		padding: 1% !important;
+     
+     }
+
+     /*---------------Leaderboards Page -------------------*/
+    
+    .page-leaderboards div#left,
+    .page-leaderboards div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-leaderboards div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*---------------Weekly Leaderboards Page -------------------*/
+    
+    .page-weekly-leaderboards div#left,
+    .page-weekly-leaderboards div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-weekly-leaderboards div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*---------------Message Page-------------------*/
+    
+    .page-messages #left {
+    
+		width: 18% !important;
+		padding: 1% !important;
+    }
+    
+    .page-messages #right {
+    
+		width: 78% !important;
+		padding: 1% !important;
+		float: right !important;
+    }
+    
+    .privatemsg-list {
+    
+		width: 100% !important;
+    
+    }
+    
+    .privatemsg-message {
+    
+		max-width: 100% !important;
+    
+    }
+    
+    .privatemsg-message-information {
+    
+		line-height: 2em !important;
+    
+    }
+    
+    /*---------------User Edit Page -------------------*/
+    
+    .page-user-edit div#left,
+    .page-user-edit div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-user-edit div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*---------------User OpenID Page -------------------*/
+    
+    .page-user-openid div#left,
+    .page-user-openid div#farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    .page-user-openid div#right {
+    
+		width: 66% !important;
+		padding: 1% !important;
+		float: left !important;
+		display: block !important;
+    
+    }
+    
+    /*----------- Points Page ------------------------*/
+    
+    .page-user-points .userpoints-myuserpoints-list,
+    .page-user-points .userpoints-myuserpoints-total {
+    
+		width: 100% !important;
+    
+    }
+    
+    
+    /*----------------Front Page-------------------*/
+    
+    .front #left,
+    .front #farright {
+    
+		width: 14% !important;
+		padding: 1% !important;
+    
+    }
+    
+    .front #right {
+    
+		width: 65% !important;
+		padding: 1% !important;
+    }
+    
+    .front .view-blog {
+    
+		text-align: center !important;
+		width: 98% !important;
+		padding: 1% !important;
+    
+    }
+    
+    .front .field-name-ds-user-picture {
+    
+		float: none !important;
+    
+    }
+    
+    .front .field-item img {
+    
+		max-width: 100% !important;
+	
+	}
+	
+	.front .field-item ul {
+	
+		list-style-type: none !important;
+	
+	}
+	
+	.front .node {
+	
+		text-align: center !important;
+		width: 98% !important;
+		padding: 1% !important;
+	}
+    
+    #block-views-blog-block {
+    
+		padding: 0;
+    
+    }
+    
+    #block-block-8,
+    #block-block-2,
+    #block-views-new-forum-topics-block-1,
+    #block-views-comments-recent-block,
+    #block-views-your-medals-block-1 {
+    
+		width: 98% !important;
+		padding: 1% !important;
+    
+    }
+    
+    #block-block-8 .content strong {
+    
+		float: left !important;
+    
+    }
+    
+	/*----------------Mobile Styles----------------*/
+
+
+	@media (max-width: 1260px) {
+	
+		/*--------------Global -----------------*/
+		
+		body {
+		
+			width: 100% !important;
+			background-image: none !important;
+		
+		}
+		
+		#maincontent {
+		
+			margin-top: 3em !important;
+		
+		}
+		
+		/*--------------Mobile Header -----------------*/
+		
+		
+		.region-menubar {
+		
+			width: 100% !important;
+		
+		}
+		
+		#menubar {
+		
+			margin-top: 1em !important;
+		}
+		
+		
+		
+		.menu {
+		
+			width: 100% !important;
+			padding: 0 !important;
+			background-color: #637c9d !important;
+		}
+		
+		#topright {
+		
+			position: static !important;
+			width: 100 % !important;
+			text-align: center !important;
+			margin-bottom: 1em !important;
+		
+		}
+		
+		#menubar-right {
+		
+			position: static !important;
+			width: 100% !important;
+			text-align: center !important;
+			margin-top: 1em !important;
+		
+		}
+		
+		#maintitle {
+		
+			display: block !important;
+			margin: 0 auto !important;
+			
+		
+		}
+		
+		#block-block-5 {
+		
+			display: none !important;
+		
+		}
+		
+		/*----------------Front Page-------------------*/
+    
+		.front div#left,
+		.front div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.front div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*----------------Latest Art Page-------------------*/
+    
+		.page-latest div#left,
+		.page-latest div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-latest div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*----------------Latest Art By Friends Page-------------------*/
+    
+		.page-latest-friends div#left,
+		.page-latest-friends div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-latest-friends div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*----------------Popular Art Page-------------------*/
+    
+		.page-popular div#left,
+		.page-popular div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-popular div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*---------------Legal Note Page-------------------*/
+		
+		.page-node div#left,
+		.page-node div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-node div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*---------------Blog Page-------------------*/
+		
+		.page-blog div#left,
+		.page-blog div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-blog div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*---------------Art Collections Page-------------------*/
+		
+		.page-collections div#left,
+		.page-collections div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-collections div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*---------------My Collections Page-------------------*/
+		
+		.page-my-collections div#left,
+		.page-my-collections div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-my-collections div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*---------------Leaderboard Page-------------------*/
+		
+		.page-leaderboards div#left,
+		.page-leaderboards div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-leaderboards div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*---------------Leaderboard Page-------------------*/
+		
+		.page-weekly-leaderboards div#left,
+		.page-weekly-leaderboards div#farright {
+    
+			display: none !important;
+    
+		}
+    
+		.page-weekly-leaderboards div#right {
+    
+			width: 98% !important;
+			padding: 1% !important;
+		}
+    
+		/*---------------Art Search Advanced Page-------------------*/
+    
+		.page-art-search-advanced #block-block-2,
+		.page-art-search-advanced #block-views-new-forum-topics-block-1 {
+		
+			display: none !important;
+	
+		}
+	
+		.page-art-search-advanced #edit-title,
+		.page-art-search-advanced #edit-field-art-tags-tid-op,
+		.page-art-search-advanced #edit-name--2,
+		.page-art-search-advanced #collections-list,
+		.page-art-search-advanced #edit-name {
+		
+			max-width: 100% !important;
+		
+		}
+	
+		/*---------------Forum Page-------------------*/
+    
+		.page-forum div#left {
+    
+			display: none !important;
+		}
+    
+		.page-forum div#right {
+    
+			width: 100% !important;
+		}
+    
+		/*----------Topic Page--------------------*/
+    
+		.group-footer .links,
+		.field-item img {
+    
+			max-width: 100% !important;
+    
+		}
+    
+		/*-----------Messages Page----------------*/
+    
+		.page-messages div#left {
+		
+			display: none !important;
+    
+		}
+    
+		.page-messages div#right {
+		
+			width: 100% !important;
+    
+		}
+    
+		/*----------OpenID Page-----------------*/
+    
+		.page-user-openid div#left {
+    
+			display: none !important;
+		}
+    
+		.page-user-openid div#right {
+    
+			width: 100% !important;
+		}
+    
+		/*----------User Edit Page-----------------*/
+    
+		.page-user-edit div#left {
+    
+			display: none !important;
+		}
+    
+		.page-user-edit div#right {
+    
+			width: 100% !important;
+		}
+    
+	
+	}
+    
+    
+}
+
